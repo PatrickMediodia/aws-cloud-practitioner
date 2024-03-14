@@ -8,55 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f4cb873425a4f369",
+            "id": "cd1523e0b5ce62b4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Practice Test 5 Notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "405b32991fd36443",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Practice Test 6 Notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b0e93bf40dc41bb5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Practice Test 4 Notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8f5f97c9042881b2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Practice Test 1 Notes.md",
+                "file": "Note 1.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "52afb70ef3e8b941",
@@ -123,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Practice Test 1 Notes.md",
+                "file": "Note 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Practice Test 1 Notes.md",
+                "file": "Note 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Practice Test 1 Notes.md"
+                "file": "Note 1.md"
               }
             }
           }
@@ -184,13 +146,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8f5f97c9042881b2",
+  "active": "cd1523e0b5ce62b4",
   "lastOpenFiles": [
-    "Practice Test 5 Notes.md",
     "Practice Test 1 Notes.md",
-    "Practice Test 4 Notes.md",
-    "Untitled",
+    "Note 1.md",
+    "Practice Test 5 Notes.md",
     "Practice Test 6 Notes.md",
+    "Practice Test 4 Notes.md",
+    "Practice 6 Notes.md",
     "Cloud Trail.md"
   ]
 }
