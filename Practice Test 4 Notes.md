@@ -72,7 +72,7 @@ AWS Device Farm
 
 AWS Web Application Framework vs Subnets vs NACLs
 
-AWS Global Accelerator
+AWS Global Accelerator - uses edge locations to ind optimal pathway to the nearest regional endpoint
 
 API gateway is for exposing labmda functions as REST API endpoints
 
@@ -88,6 +88,9 @@ Trusted Advisor - AWS account level recommendations(flag things not being encryp
 
 Inspector - scan your EC2 and containers for vulnerabilities. The old version required an agent to be installed. The new version uses ssm. This is useful for things like, "does my ec2 use a vulnerable log4j package)
 
+AWS Systems Manager
+	- SSM Agents runs on EC2, edge, on-premises for configuration management
+
 Cloudwatch - Where logs from various AWS services can be sent and viewed.
 
 Guardduty - Monitors traffic for suspicious activity. The biggest example I see is outbound traffic to IPs known for cryptomining. This indicates that a EC2 has been hacked.
@@ -97,3 +100,7 @@ Coincidentally I just passed the AWS Security certification exam 1 hour ago, and
 Redshift has a well-defined schema
 
 EFS --> is an elastic NFS file system which can be used by both cloud and on-premise services
+
+Which AWS service can be used to set up billing alarms to monitor estimated charges on your AWS account?
+	- CloudWatch
+	- Why lol

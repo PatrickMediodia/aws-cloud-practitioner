@@ -4,16 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "71e0daff1d31319e",
+        "id": "33933c1fdad172e9",
         "type": "tabs",
         "children": [
           {
-            "id": "cd1523e0b5ce62b4",
+            "id": "c6c32569db4753cd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note 1.md",
+                "file": "Practice Test 6 Notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5abafadc141ac730",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Practice Test 6 Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note 1.md",
+                "file": "Practice Test 6 Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note 1.md",
+                "file": "Practice Test 6 Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note 1.md"
+                "file": "Practice Test 6 Notes.md"
               }
             }
           }
@@ -146,13 +158,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cd1523e0b5ce62b4",
+  "active": "c6c32569db4753cd",
   "lastOpenFiles": [
+    "What I Need to Learn.md",
     "Practice Test 1 Notes.md",
-    "Note 1.md",
-    "Practice Test 5 Notes.md",
-    "Practice Test 6 Notes.md",
     "Practice Test 4 Notes.md",
+    "Practice Test 6 Notes.md",
+    "Practice Test 3 Notes.md",
+    "Practice Test 5 Notes.md",
+    "Step Functions.md",
+    "STS.md",
+    "Note 1.md",
     "Practice 6 Notes.md",
     "Cloud Trail.md"
   ]

@@ -4,6 +4,9 @@
 45. Which of the following statements are correct regarding Amazon API Gateway? (Select two)
 	- If an API response is served by the cached data, it is not considered an API call for billing purposes
 	- Amazon API gateway can call an AWS Lambda function to create the front doo of a serverless application
+- Which of the following data sources are used by Amazon Detective to analyze events and identify potential security issues?
+	- AWS CloudTrail logs, Amazon VPC Flow Logs, and Amazon GuardDuty findings
+
 Things I don't know
 - Cloud trail types of events
 	- management
@@ -32,3 +35,9 @@ Notes
 - 5G computing - AWS Wavelength
 - AWS Cost Explorer - cost and usage and forecasting
 - Performance Pillar --> using computing resources efficiently
+
+What is amazon forecast
+
+Control Tower --> Landing zone
+
+AWS Key Management Service
