@@ -104,3 +104,37 @@ EFS --> is an elastic NFS file system which can be used by both cloud and on-pre
 Which AWS service can be used to set up billing alarms to monitor estimated charges on your AWS account?
 	- CloudWatch
 	- Why lol
+
+
+OpsWorks  
+- automate EC2 instance server configuration  
+  
+Systems Manager  
+- gives you visibility and control of your infrastructure on AWS  
+- unified interface  
+  
+AWS Budgets  
+- for both cost, usage, and reserved instances  
+- for both when you exceed or underutilized  
+  
+AWS Trusted Advisor  
+- real-time guidance on best practices  
+- Five Categories: Cost Optimization, Performance, Security, Fault Tolerance, Service Limits  
+  
+AWS Marketplace (AMIs and SaaS)  
+- buy software that has been bundled into custom AMIs  
+- Sell SaaS solutions to AWS customers  
+  
+AWS WAF  
+- can block all requests except the ones that you allow  
+- can check presence of SQL injection in code  
+- only works at the application layer (layer 7)  
+  
+Route 53  
+- is just a DNS  
+  
+Global Accelerator  
+- improve availability and performance of the applications to global users  
+- TCP or UDP  
+- improves performance by proxying packets at the edge to applications running in one or more AWS regions  
+- provides static IP so that you don't have to manage specific IP addresses for different AWS regions

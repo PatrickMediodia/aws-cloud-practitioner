@@ -62,6 +62,7 @@ Things I'm Not Sure About
 	- AWS Managed Microsoft Active Directory
 - Compute Optimizer
 	- AWS Compute Optimizer is a useful tool that uses machine learning to report on overutilization and underutilization of resources. You can use Compute Optimizer to gather the information needed to rightsize your workloads.
+	- EC2, EBS, ECS, Fargate, Lambda
 - Trusted Advisor
 	- can scans security groups to check if they allow unrestricted access to any ports
 - VPC Flow Logs
