@@ -1,0 +1,95 @@
+Questions I Don't Know
+- Which AWS service supports an in-memory data structure store, compatible with Redis, that delivers sub-millisecond latency for use cases such as caching, session stores, and real-time analytics?
+	- Either DynamoDB or Redshift
+- UNSURE: Which IAM entity is associated with an access key ID and secret access key?
+	- IAM Role
+		- IAM Roles you can delegate permissions to resources for users and services without using permanent credentials (e.g. username and password). 
+		- To do so you can create a role and assign an IAM policy to the role that has the permissions required.
+	- IAM User
+		- An access key ID and secret access key are assigned to IAM users and used for programmatic access using the API or CLI.
+	
+Things I'm Not Sure About
+- Access Analyzer
+	- helps you identify the resources in your organization and accounts, such as Amazon S3 buckets or IAM roles, shared with an external entity. This lets you identify unintended access to your resources and data, which is a security risk.
+- AWS Systems Manager
+	- allows an organization to view operational data from multiple AWS services through a unified user interface and automate operational tasks
+- AWS Secrets Manager
+- AWS Config
+- CloudWatch vs Inspector vs CloudTrail vs GuardDuty
+- Amazon Connect
+- Are all services within a VPC?
+- IAM Users vs IAM User Groups vs IAM Roles
+- Internet Gateway vs Virtual Private Gateway/Customer Gateway vs NAT Gateway vs VPC Route Table
+	- NAT Gateway
+		- used for outbound internet access for instances running in a private subnet
+	- Internet Gateway
+		- attached to a VPC to allow inbound traffic from the internet to access the VPC
+		- used as a target in route tables for outbound internet traffic
+- AWS App Config
+	- allows users to deploy application configuration changes quickly and reliably without needing to write additional code or restart services
+	- It supports validation checks to ensure configuration data is syntactically and semantically correct before deployment, avoiding potential outages.
+- Amazon EventBridge
+- AWS KMS
+- AWS CloudHSM
+- AWS Amplify
+	- set of tools and services that can be used to build scalable full-stack apps powered by AWS
+	- real-time and offline functionalities
+- AWS AppSync
+	- GraphQL
+	- Pub/Sub APIs
+	- Real-time updates and offline functionalities
+	- API Gateway is for RESTFul
+- Amazon OpenSearch Service
+- AWS Control Tower
+	- easiest way to set up and govern a secure, multi-account AWS environment, called a landing zone
+	- This is a governance service and is not related to Identity and Access Management.
+	- landing zones
+- IAM vs Organizations
+- Amazon Connect
+	- contact center solution
+- Snowmobile
+	- exabyte scale data transfer service
+- Snowball
+	- petabyte scale data transfer service
+- EventBridge
+	- is a serverless event bus that makes it easier to build event-driven applications at scale using events generated from your applications. 
+	- You can set rules for actions to take place when certain events happen, like instance state changes, items are uploaded to an S3 bucket etc
+- Amazon Congito
+	- allows sign in with social IDPs with SAML2.0 and OpenID connect
+- ElastiCache
+	- is a blazing fast in-memory data store that provides sub-millisecond latency to power internet-scale real-time applications. Built on open-source Redis or Memcached, ElastiCache works seamlessly with Redis or Memcached without any code changes.
+- Amazon Directory Service
+	- AWS Managed Microsoft Active Directory
+- Compute Optimizer
+	- AWS Compute Optimizer is a useful tool that uses machine learning to report on overutilization and underutilization of resources. You can use Compute Optimizer to gather the information needed to rightsize your workloads.
+- Trusted Advisor
+	- can scans security groups to check if they allow unrestricted access to any ports
+Things I Got Wrong
+- MemoryDB
+	- Amazon MemoryDB for Redis is the correct answer because it is a Redis-compatible, in-memory database service built on Redis architecture, which offers sub-millisecond latency, fulfilling the requirements mentioned in the question.
+	- DynamoDB is not redis compatible
+- Which AWS service or feature can be used to restrict the individual API actions that users and roles in each member account can access?
+	- If API actions --> AWS organizations
+	- To perform an action, you must have the right permissions and and the API be allowed
+- Note: ALB does not do application failover
+- Fault Tolerant EC2: ASG with a ELB behind
+	- ASG does health check replacements and scaling
+- BOTH DYNAMODB and REDSHIFT can be reserved
+	- Amazon S3 cannot
+	- Services you can reserve
+		- EC2
+		- DynamoDB
+		- ElastiCache
+		- RDS
+		- RedShift
+- AWS Organizations
+	- can be used for automating AWS account creation via the Organizations API
+	- you cannot use IAM for creating accounts
+- NACL vs Security Groups
+	- Security Groups
+		- Stateful
+			- if you send a request, it will automatically allow the response
+	- NACL
+		- stateless
+		- both explicitly allow and deny inbound and outbound traffic
+	![[Pasted image 20240327140618.png]]
