@@ -64,6 +64,19 @@ Things I'm Not Sure About
 	- AWS Compute Optimizer is a useful tool that uses machine learning to report on overutilization and underutilization of resources. You can use Compute Optimizer to gather the information needed to rightsize your workloads.
 - Trusted Advisor
 	- can scans security groups to check if they allow unrestricted access to any ports
+- VPC Flow Logs
+	- capture information about inbound and outbound IP traffic on network interfaces in a VPC
+	- can be published to CloudWatch logs or S3
+	- does not affect network traffic performance
+- CloudWatch
+	- performance monitoring tool that receives metrics from AWS services
+	- monitoring operational health of resources
+	- optimize costs through right-sized and enough capacity
+- AWS Config
+	- for managing compliance for AWS services
+- AWS Managed IAM Policies
+	- cannot be edited, therefore if you need additional permissions or chhange policies you have to create customer managed policies
+
 Things I Got Wrong
 - MemoryDB
 	- Amazon MemoryDB for Redis is the correct answer because it is a Redis-compatible, in-memory database service built on Redis architecture, which offers sub-millisecond latency, fulfilling the requirements mentioned in the question.
