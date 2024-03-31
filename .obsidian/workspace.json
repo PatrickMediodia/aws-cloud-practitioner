@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "71e0daff1d31319e",
+        "id": "6e3b91cac8df19ac",
         "type": "tabs",
         "children": [
           {
-            "id": "8f5f97c9042881b2",
+            "id": "92803679c72329d5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Neal Practice Exam 4.md",
+                "file": "Question Dump Notes Part 1 and 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "52afb70ef3e8b941",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Neal Practice Exam 4.md",
+                "file": "Question Dump Notes Part 1 and 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Neal Practice Exam 4.md",
+                "file": "Question Dump Notes Part 1 and 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Neal Practice Exam 4.md"
+                "file": "Question Dump Notes Part 1 and 2.md"
               }
             }
           }
@@ -147,10 +148,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8f5f97c9042881b2",
+  "active": "92803679c72329d5",
   "lastOpenFiles": [
-    "Neal Practice Exam 2.md",
+    "Question Dump Notes Part 1 and 2.md",
     "Neal Practice Exam 4.md",
+    "Neal Practice Exam 2.md",
     "Question Dump Notes Part 4.md",
     "Things I'm Confused In.md",
     "Question Dump Notes Part 3 and 4.md",
