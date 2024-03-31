@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6e3b91cac8df19ac",
+        "id": "71e0daff1d31319e",
         "type": "tabs",
         "children": [
           {
-            "id": "92803679c72329d5",
+            "id": "8f5f97c9042881b2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Question Dump Notes Part 1 and 2.md",
+                "file": "Neal PRactice Exam 6.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Neal Practice Exam 6",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "52afb70ef3e8b941",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Question Dump Notes Part 1 and 2.md",
+                "file": "Neal PRactice Exam 6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Question Dump Notes Part 1 and 2.md",
+                "file": "Neal PRactice Exam 6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Question Dump Notes Part 1 and 2.md"
+                "file": "Neal PRactice Exam 6.md"
               }
             }
           }
@@ -148,10 +147,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "92803679c72329d5",
+  "active": "8f5f97c9042881b2",
   "lastOpenFiles": [
-    "Question Dump Notes Part 1 and 2.md",
     "Neal Practice Exam 4.md",
+    "Neal PRactice Exam 6.md",
+    "Question Dump Notes Part 1 and 2.md",
     "Neal Practice Exam 2.md",
     "Question Dump Notes Part 4.md",
     "Things I'm Confused In.md",
